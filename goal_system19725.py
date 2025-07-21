@@ -1,23 +1,3 @@
-"""
-| Method                                            | Purpose                         |
-| ------------------------------------------------- | ------------------------------- |
-| `add_goal()`                                      | Create a new goal               |
-| `update_goal()`                                   | Modify title, deadline, etc.    |
-| `delete_goal()`                                   | Remove goal by ID or title      |
-| `view_goals()`                                    | Show summary of all goals       |
-| `link_task(goal_id, task_id)`                     | Connect task from `TaskManager` |
-| `add_milestone(goal_id, milestone_text)`          | Add mini targets                |
-| `mark_completed(goal_id)`                         | Change status to `completed`    |
-| `filter_goals(by="status"/"category"/"priority")` | Advanced filtering              |
-| `save_goals()`                                    | Store to JSON                   |
-| `load_goals()`                                    | Load from file                  |
-progress_percent() method
-
-link_task() method
-
-mark_milestone_complete() method
-"""
-
 from task_manager19725 import Task
 
 tasks = []
